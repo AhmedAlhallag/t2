@@ -1,7 +1,8 @@
 from searching import Searching
+from sorting import Sorting
 import time
 sObj = Searching()
-
+sortObj = Sorting()
 
 d = {
     1: "CHECK SUBTRING MATCHING",
@@ -28,6 +29,7 @@ while rep != "exit":
         sObj.set_string_sub(string, sub)
         print(sObj.subString())
     elif rep == 2:
-        pass
+        nums = input("Enter nums sep by white space: ").split(" ")
+
     else:
         print("UNKOWN COMAND.")
