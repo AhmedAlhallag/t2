@@ -17,3 +17,6 @@ class Searching:
             if match:
                 return True
         return False
+
+    def method(self):
+        pass
